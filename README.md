@@ -1,12 +1,12 @@
 # gotools
 
-This is useful collection of Go functions.
+This is my collection of useful Go functions.
 
 ## SmartPlural
 
 `func SmartPlural(number int, singularNoun, pluralNoun string) string`
 
-Enables you to easily deal with the grammatical exception that 1 presents, e.g. "1 card" but "0 cards" and "2 cards".
+Enables you to easily deal with the grammatical exception that 1 presents, e.g. "0 cards", "2 cards", "999 cards" but "1 card".
 
 ```go
 for i := 1; i <= 4; i++ {
