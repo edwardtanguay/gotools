@@ -15,7 +15,7 @@ func GetLinesFromFile(pathAndFileName string) ([]string, error) {
 	var lines []string
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
-		lines = append(lines, scanner.Text())
+		lines = append(lines, scanner.Text() + "nnn")
 	}
 	if err := scanner.Err(); err != nil {
 		return nil, err
