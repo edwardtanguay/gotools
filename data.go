@@ -35,6 +35,6 @@ func GetEmployees() (employees []Employee) {
 	return
 }
 
-func getTestData() string {
+func GetTestData() string {
 	return "test6378"
 }
